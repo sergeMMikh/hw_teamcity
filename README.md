@@ -65,10 +65,6 @@ public void welcomerSayCasador() {
    <img src="images/Task_15.png" alt="Task_15.png" width="500" height="auto"></br>
 10. Настроил конфигурацию так, чтобы она собирала .jar в артефакты сборки. Провеил повторную сборку мастера, убедился, что сбора прошла успешно и артефакты собраны..</br>
    <img src="images/Task_17.png" alt="Task_17.png" width="500" height="auto"></br>
-
-
-### Как оформить решение задания
-
-Выполненное домашнее задание пришлите в виде ссылки на .md-файл в вашем репозитории.
+11. Обновил [конфигурацю teamcity](https://github.com/sergeMMikh/example-teamcity_4_hw/tree/master/.teamcity) репозитории.
 
 ---
