@@ -63,6 +63,8 @@ public void welcomerSayCasador() {
    <img src="images/Task_13_1.png" alt="Task_13_1.png" width="500" height="auto"></br>
 9. Убедился, что собранного артефакта новой версии 0.0.2 нет в сборке по ветке master.</br>
    <img src="images/Task_15.png" alt="Task_15.png" width="500" height="auto"></br>
+10. Настроил конфигурацию так, чтобы она собирала .jar в артефакты сборки. Провеил повторную сборку мастера, убедился, что сбора прошла успешно и артефакты собраны..</br>
+   <img src="images/Task_17.png" alt="Task_17.png" width="500" height="auto"></br>
 
 
 ### Как оформить решение задания
