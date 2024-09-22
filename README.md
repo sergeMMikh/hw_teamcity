@@ -40,10 +40,11 @@
 2.Сохранил необходимые шаги, запустил первую сборку master.</br>
    <img src="images/Task_3.png" alt="Task_3.png" width="500" height="auto"></br>
 3. Поменял условия сборки: если сборка по ветке `master`, то должен происходит `mvn clean deploy`, иначе `mvn clean test`.</br>
+   <img src="images/Task_4_1.png" alt="Task_4_1.png" width="350" height="auto"></br>
    <img src="images/Task_4.png" alt="Task_4.png" width="350" height="auto"></br>
 4. Загрузил [`settings.xml`](https://github.com/netology-code/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/teamcity/settings.xml) в набор конфигураций maven у teamcity, предварительно записав туда креды для подключения к nexus. В `pom.xml` поменял ссылки на репозиторий и nexus.Запустил сборку по master, убедился, что всё прошло успешно и артефакт появился в nexus.</br>
    <img src="images/Task_7.png" alt="Task_7.png" width="500" height="auto"></br>
-5. Согласно рекомендациям из [статьи](https://www.jetbrains.com/help/teamcity/project-export.html) экспортировал [настройки проекта](https://github.com/sergeMMikh/example-teamcity_4_hw/blob/master/TeamCity__Root_20240922_180838.zip) в репозиторий.
+5. Согласно рекомендациям из [статьи](https://www.jetbrains.com/help/teamcity/project-export.html) экспортировал [настройки проекта](https://github.com/sergeMMikh/example-teamcity_4_hw/blob/master/TeamCity__Root_20240922_180838.zip) в репозиторий. Так же перенёс файл [.teamcity](https://github.com/sergeMMikh/example-teamcity_4_hw/tree/master/.teamcity).
 6. Добавил метод класса `Welcomer`
 ```
 public String sayCasador() {
@@ -57,6 +58,9 @@ public void welcomerSayCasador() {
    assertThat(welcomer.sayCasador(), containsString("hunter"));
 }
 ```
+8. Сделал push всех изменений в новую ветку репозитория. Убедитесь, что сборка самостоятельно запустилась, тесты прошли успешно.</br>
+   <img src="images/Task_13.png" alt="Task_13.png" width="500" height="auto"></br>
+   <img src="images/Task_13_1.png" alt="Task_13_1.png" width="500" height="auto"></br>
 
 
 ### Как оформить решение задания
