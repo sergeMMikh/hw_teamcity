@@ -37,6 +37,12 @@
 
 1. Сделайл autodetect конфигурации. с ролью.</br>
    <img src="images/Task_2_1_2.png" alt="Task_2_1_2.png" width="500" height="auto"></br>
+2.Сохранил необходимые шаги, запустил первую сборку master.</br>
+   <img src="images/Task_3.png" alt="Task_3.png" width="500" height="auto"></br>
+3. Поменял условия сборки: если сборка по ветке `master`, то должен происходит `mvn clean deploy`, иначе `mvn clean test`.</br>
+   <img src="images/Task_4.png" alt="Task_4.png" width="350" height="auto"></br>
+4. Загрузил [`settings.xml`](https://github.com/netology-code/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/teamcity/settings.xml) в набор конфигураций maven у teamcity, предварительно записав туда креды для подключения к nexus. В `pom.xml` поменял ссылки на репозиторий и nexus.Запустил сборку по master, убедился, что всё прошло успешно и артефакт появился в nexus.</br>
+   <img src="images/Task_7.png" alt="Task_7.png" width="500" height="auto"></br>
 
 ### Как оформить решение задания
 
